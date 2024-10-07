@@ -5,9 +5,10 @@ const randomDiceRoll = () => Math.floor(Math.random() * 6) + 1
 
 
 const CounterApp02 = () => {
-        const [diceRolls, setDiceRolls] = useState([]);
-        console.log('Dice rolls:', diceRolls);
+        const [diceRolls, setDiceRolls] = useState([]);//sd useState tao mang rong
         
+        console.log('Dice rolls:', diceRolls);
+
         return (
           <View>
             <Button
